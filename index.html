@@ -9,21 +9,79 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/app.css" />
     <title>Comforty</title>
   </head>
   <body>
     <div class="wrapper">
       <header class="header">
-        <div class="container">
-          <div class="header__container">
-            <div class="header__about">
-              <div class="header__adv">
+        <section class="habout">
+          <div class="container">
+            <div class="habout__container">
+              <div class="habout__adv">
                 <img src="./images/check-icon.svg" alt="check-icon" />
-                <p class="text">Free shipping on all orders over $50</p>
+                <p class="normal-text">Free shipping on all orders over $50</p>
+              </div>
+              <div class="habout__tool">
+                <div class="habout__config normal-text"></div>
+                <div class="habout__language">
+                  <select name="lang" id="lang">
+                    <option value="en">Eng</option>
+                    <option value="es">Es</option>
+                    <option value="fr">Fr</option>
+                  </select>
+                </div>
+                <div class="habout__faqs">
+                  <p class="normal-text">Faqs</p>
+                </div>
+                <div class="habout__help">
+                  <img
+                    src="./images/exclamation-icon.svg"
+                    alt="exclamation-icon"
+                  />
+                  <p class="normal-text">Need help</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
+        <section class="navmid">
+          <div class="container">
+            <div class="navmid_container">
+              <div class="navmid_logo">
+                <img
+                  srcset="./images/comforty-logo.png 2x"
+                  alt="comforty-logo"
+                />
+                <p>Comforty</p>
+              </div>
+
+              <div class="navmid__searchbar">
+                <input type="text" placeholder="Search.." name="search" />
+                <img src="./images/search-icon.svg" alt="search-icon" />
+              </div>
+
+              <div class="navmid__user">
+                <div class="navmid__cart">
+                  <img src="./images/cart-icon.svg" alt="cart-icon" />
+                  <p>Cart</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- <div class="container">
+          <div class="header__container">
+            <div class="header__about">
+       
+              
+            <div class="header__middle">
+              <div class="header__logo">
+                <img srcset="./images/comforty-logo.png 2x" alt="" />
+              </div>
+            </div>
+          </div>
+        </div> -->
       </header>
     </div>
   </body>

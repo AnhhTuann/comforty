@@ -57,4 +57,43 @@ body {
   padding: 0 15px;
 }
 
+.normal-text {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  line-height: 110%;
+}
+
+.habout {
+  background-color: #272343;
+}
+.habout__container {
+  padding: 15.5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.habout__adv {
+  display: flex;
+  gap: 0 8px;
+}
+.habout__tool {
+  display: flex;
+  gap: 0 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+.habout__language select {
+  background-color: #272343;
+  color: #636270;
+  border: none;
+  font-size: 16px;
+  color: white;
+}
+.habout__help {
+  display: flex;
+  gap: 0 6px;
+  align-items: center;
+}
+
 /*# sourceMappingURL=app.css.map */

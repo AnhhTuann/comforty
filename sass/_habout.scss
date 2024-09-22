@@ -1,0 +1,35 @@
+.habout {
+  background-color: $title-color;
+  &__container {
+    padding: 15.5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__adv {
+    display: flex;
+    gap: 0 8px;
+  }
+
+  &__tool {
+    display: flex;
+    gap: 0 24px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__language select {
+    background-color: $title-color;
+    color: $text-color;
+    border: none;
+    font-size: 16px;
+    color: white;
+  }
+
+  &__help {
+    display: flex;
+    gap: 0 6px;
+    align-items: center;
+  }
+}
