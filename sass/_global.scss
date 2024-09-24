@@ -37,3 +37,20 @@ ul {
     border: 1px solid currentColor;
   }
 }
+
+.dropdown {
+  width: 100%;
+  &-list {
+    display: none;
+  }
+  &-select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-radius: 6px;
+    border: 1px solid $gray-dark-color;
+    color: $gray-darkest-color;
+    cursor: pointer;
+  }
+}
