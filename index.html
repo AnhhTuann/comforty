@@ -3,85 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour and Travel</title>
+    <link rel="stylesheet" href="./css/app.css.map" />
+    <link rel="stylesheet" href="./css/app.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/app.css" />
-    <title>Comforty</title>
   </head>
   <body>
     <div class="wrapper">
       <header class="header">
-        <section class="habout">
-          <div class="container">
-            <div class="habout__container">
-              <div class="habout__adv">
-                <img src="./images/check-icon.svg" alt="check-icon" />
-                <p class="normal-text">Free shipping on all orders over $50</p>
-              </div>
-              <div class="habout__tool">
-                <div class="habout__config normal-text"></div>
-                <div class="habout__language">
-                  <select name="lang" id="lang">
-                    <option value="en">Eng</option>
-                    <option value="es">Es</option>
-                    <option value="fr">Fr</option>
-                  </select>
-                </div>
-                <div class="habout__faqs">
-                  <p class="normal-text">Faqs</p>
-                </div>
-                <div class="habout__help">
-                  <img
-                    src="./images/exclamation-icon.svg"
-                    alt="exclamation-icon"
-                  />
-                  <p class="normal-text">Need help</p>
-                </div>
-              </div>
-            </div>
+        <div class="container">
+          <div class="header-container">
+            <img srcset="./images/logo.png 2x" alt="logo" />
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="#" class="menu-link">Home</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">Destination</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">About</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">Partner</a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="btn btn--secondary">Login</a>
+              </li>
+              <li class="menu-item">
+                <a href="" class="btn btn--primary">Register</a>
+              </li>
+            </ul>
           </div>
-        </section>
-        <section class="navmid">
-          <div class="container">
-            <div class="navmid_container">
-              <div class="navmid_logo">
-                <img
-                  srcset="./images/comforty-logo.png 2x"
-                  alt="comforty-logo"
-                />
-                <p>Comforty</p>
-              </div>
-
-              <div class="navmid__searchbar">
-                <input type="text" placeholder="Search.." name="search" />
-                <img src="./images/search-icon.svg" alt="search-icon" />
-              </div>
-
-              <div class="navmid__user">
-                <div class="navmid__cart">
-                  <img src="./images/cart-icon.svg" alt="cart-icon" />
-                  <p>Cart</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- <div class="container">
-          <div class="header__container">
-            <div class="header__about">
-       
-              
-            <div class="header__middle">
-              <div class="header__logo">
-                <img srcset="./images/comforty-logo.png 2x" alt="" />
-              </div>
-            </div>
-          </div>
-        </div> -->
+        </div>
       </header>
     </div>
   </body>

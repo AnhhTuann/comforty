@@ -1,25 +1,39 @@
-body {
-  line-height: 1;
-  font-family: $font;
-  color: $text-color;
-  font-weight: 400;
-  background: white;
-}
-
 .wrapper {
-  max-width: 1920px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
 .container {
-  max-width: 1350px;
+  max-width: 1260px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
-.normal-text {
-  font-size: 16px;
-  color: white;
-  font-weight: 400;
-  line-height: 110%;
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: $primary-font;
+  line-height: 1;
+  height: 52px;
+  padding: 0 60px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  &--primary {
+    color: white;
+    background-color: $primary-color;
+  }
+  &--secondary {
+    color: $primary-color;
+    border: 1px solid currentColor;
+  }
 }
