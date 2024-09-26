@@ -283,4 +283,48 @@ body {
   padding-right: 40px;
 }
 
+.testimonial {
+  margin-bottom: 270px;
+}
+.testimonial-heading {
+  margin-bottom: 60px;
+}
+.testimonial-container {
+  max-width: 1070px;
+  padding-left: 50px;
+  position: relative;
+}
+.testimonial-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonial-content {
+  width: 450px;
+}
+.testimonial-rating {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 0 15px;
+  margin-bottom: 30px;
+  color: #ffbb0c;
+}
+.testimonial-desc {
+  color: #000;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.testimonial-name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+.testimonial-job {
+  font-size: 18px;
+  color: #000;
+}
+
 /*# sourceMappingURL=app.css.map */
