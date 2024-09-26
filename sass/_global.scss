@@ -54,3 +54,17 @@ ul {
     cursor: pointer;
   }
 }
+
+.boxed-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.viewall {
+  color: $primary-color;
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+}

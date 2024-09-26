@@ -1,0 +1,34 @@
+.story {
+  margin-bottom: 270px;
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+  }
+  &-image {
+    height: 230px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px 8px 0 0;
+      object-position: top;
+    }
+  }
+  &-title {
+    margin-bottom: 15px;
+    color: #000;
+    font-size: 19px;
+    line-height: 158%;
+  }
+  &-desc {
+    color: $gray-darker-color;
+    font-size: 15px;
+    margin-bottom: 23px;
+    line-height: 175%;
+  }
+  &-more {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}

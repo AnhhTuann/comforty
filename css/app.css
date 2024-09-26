@@ -95,6 +95,20 @@ ul {
   cursor: pointer;
 }
 
+.boxed-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.viewall {
+  color: #fb8f1d;
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -210,16 +224,7 @@ body {
   margin-bottom: 232px;
 }
 .destination-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-bottom: 56px;
-}
-.destination-more {
-  color: #fb8f1d;
-  display: flex;
-  align-items: center;
-  gap: 0 5px;
 }
 .destination-list {
   display: grid;
@@ -325,6 +330,41 @@ body {
 .testimonial-job {
   font-size: 18px;
   color: #000;
+}
+
+.story {
+  margin-bottom: 270px;
+}
+.story-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+}
+.story-image {
+  height: 230px;
+}
+.story-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  object-position: top;
+}
+.story-title {
+  margin-bottom: 15px;
+  color: #000;
+  font-size: 19px;
+  line-height: 158%;
+}
+.story-desc {
+  color: #7d7987;
+  font-size: 15px;
+  margin-bottom: 23px;
+  line-height: 175%;
+}
+.story-more {
+  font-size: 15px;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=app.css.map */
