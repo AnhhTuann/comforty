@@ -106,6 +106,18 @@ body {
   font-family: "Playfair Display", serif;
   color: #202336;
 }
+.heading--small {
+  line-height: 139%;
+  font-size: 36px;
+}
+
+.text {
+  font-weight: 300;
+  line-height: 176%;
+  font-size: 17px;
+  color: #7d7987;
+  font-family: "Mulish", sans-serif;
+}
 
 .header {
   padding-top: 45px;
@@ -169,6 +181,29 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
+}
+
+.explore {
+  margin-bottom: 292px;
+}
+.explore-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 50px;
+}
+.explore-content {
+  max-width: 508px;
+  padding-right: 58px;
+}
+.explore-image {
+  transform: translateX(-50px);
+}
+.explore-heading {
+  margin-bottom: 20px;
+}
+.explore-desc {
+  margin-bottom: 33px;
 }
 
 /*# sourceMappingURL=app.css.map */
