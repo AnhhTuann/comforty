@@ -260,4 +260,27 @@ body {
   color: #80918e;
 }
 
+.guide {
+  margin-bottom: 250px;
+}
+.guide-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 80px;
+}
+.guide-content {
+  max-width: 450px;
+  width: 100%;
+}
+.guide-heading {
+  margin-bottom: 20px;
+}
+.guide-desc {
+  margin-bottom: 33px;
+}
+.guide-image {
+  padding-right: 40px;
+}
+
 /*# sourceMappingURL=app.css.map */
