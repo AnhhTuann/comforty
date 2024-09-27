@@ -429,9 +429,11 @@ body {
 .footer-link {
   color: #848484;
   display: inline-block;
+  padding-bottom: 20px;
 }
 .footer-social {
   color: #000;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=app.css.map */
