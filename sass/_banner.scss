@@ -30,15 +30,40 @@
   }
   &-content {
     width: 100%;
-    max-width: 470px;
   }
-  &-image {
-    transform: translateX(85px);
-  }
+
   &-form {
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
+  }
+  @media screen and (min-width: 1280px) {
+    &-image {
+      transform: translateX(85px);
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    &-content {
+      width: 100%;
+      max-width: 470px;
+    }
+  }
+
+  @media screen and (max-width: 1023.98px) {
+    margin-bottom: 75px;
+    &-container {
+      flex-direction: column;
+      gap: 50px 0;
+    }
+  }
+  @media screen and (max-width: 767.98px) {
+    &-heading {
+      font-size: 50px;
+      margin-bottom: 40px;
+    }
+    &-form {
+      grid-template-columns: 1fr;
+    }
   }
 }
