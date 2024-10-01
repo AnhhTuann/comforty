@@ -44,10 +44,16 @@
     color: #848484;
     display: inline-block;
     padding-bottom: 20px;
+    &:hover {
+      color: $primary-color;
+    }
   }
   &-social {
     color: #000;
     font-size: 20px;
+    &:hover {
+      color: $primary-color;
+    }
   }
   @media screen and (max-width: 767.98px) {
     display: none;

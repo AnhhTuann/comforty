@@ -10,6 +10,9 @@
   }
   &-link {
     color: inherit;
+    &:hover {
+      color: black;
+    }
   }
 
   @media screen and (max-width: 1023px) {

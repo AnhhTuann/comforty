@@ -72,14 +72,22 @@ ul {
   background-color: transparent;
   border: 0;
   outline: none;
+  transition: all 0.3s ease;
 }
 .btn--primary {
   color: white;
   background-color: #fb8f1d;
 }
+.btn--primary:hover {
+  background-color: #00b0ff;
+}
 .btn--secondary {
   color: #fb8f1d;
   border: 1px solid currentColor;
+}
+.btn--secondary:hover {
+  background-color: #fb8f1d;
+  color: white;
 }
 
 .dropdown {
@@ -153,6 +161,9 @@ ul {
   gap: 0 5px;
   white-space: nowrap;
 }
+.viewall:hover {
+  color: #00b0ff;
+}
 
 body {
   font-family: "Inter", sans-serif;
@@ -210,6 +221,9 @@ body {
 }
 .menu-link {
   color: inherit;
+}
+.menu-link:hover {
+  color: black;
 }
 @media screen and (max-width: 1023px) {
   .menu {
@@ -722,9 +736,15 @@ body {
   display: inline-block;
   padding-bottom: 20px;
 }
+.footer-link:hover {
+  color: #fb8f1d;
+}
 .footer-social {
   color: #000;
   font-size: 20px;
+}
+.footer-social:hover {
+  color: #fb8f1d;
 }
 @media screen and (max-width: 767.98px) {
   .footer {
